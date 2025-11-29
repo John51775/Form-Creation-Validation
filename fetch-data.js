@@ -1,5 +1,5 @@
  
-
+document.addEventListener('DOMContentLoaded', () => {fetchUserData();});
  
  async function fetchUserData(){
 
@@ -29,4 +29,3 @@
     }
 }
 
- document.addEventListener('DOMContentloaded', () => {fetchUserData();});
