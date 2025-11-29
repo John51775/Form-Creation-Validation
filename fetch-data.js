@@ -1,5 +1,5 @@
  
- document.addEventListener('DOMContentloaded', () => {fetchUserData();});
+
  
  async function fetchUserData(){
 
@@ -28,3 +28,5 @@
             dataContainer.textContent = 'Failed to load user data.';
     }
 }
+
+ document.addEventListener('DOMContentloaded', () => {fetchUserData();});
